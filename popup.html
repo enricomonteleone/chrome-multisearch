@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Auto Multi Search</title>
+    <style>
+        html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, i, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+        { 
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            min-width: 700px;
+            background-color: #E8FFB8;
+            font-family: sans-serif;
+            font-size: small;
+        }
+        h1
+        {
+            font-size: large;
+            font-weight: bold;
+        }
+        h2
+        {
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: medium;
+            font-weight: bold;            
+        }        
+        p
+        {
+            margin-top: 2px;
+        }
+        a
+        {
+            margin: 0px 15px 0px 2px;
+        }
+    </style>
+    
+    <script type="text/javascript" src="popup.js"></script>
+
+  </head>
+  <body>
+
+        <div style="float: right;">
+            <!-- <input id="btnRefresh" type="button" value="Refresh" /> -->
+            <!-- <input id="btnRead" type="button" value="Read" /> -->
+            <!-- <input id="btnSearch" type="button" value="Search" /> -->
+            <input id="btnClear" type="button" value="Clear" />
+        </div>
+        <!-- <h1>Auto Multi Search</h1> -->
+      
+        <h2>Search Phrases</h2>
+        <p><input id="txtAdd" type="text" style="width: 20em;" />&nbsp;<a href="#" id="lnkAdd" style="font-size: large;">+</a></p>
+        <div id="divInput"></div>
+
+        <h2>Results</h2>
+        <div id="divOutput">&nbsp;</div>
+
+    </body>
+</html>
+
